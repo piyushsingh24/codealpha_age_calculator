@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: linear-gradient(0.05turn ,rgb(40, 40, 241) , purple);
+    /* height: 100vh; */
+}
+
+.container{
+    max-width: 600px;
+    margin: 170px;
+    height: 47.5vh;
+
+}
+
+h1{
+    color: wheat;
+    font-size: 3rem;
+}
+
+.container h1:nth-child(2){
+    color: rgb(238, 255, 0);
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.date{
+    max-width: 390px;
+    padding: 20px;
+    height: 60px;
+    opacity: 5px;
+    border-radius: 10px;
+    display: flex   ;
+    justify-content:space-around;
+    align-items: center;
+    background: rgb(255, 255, 255,0.3);
+
+}
+
+.date input{
+    height: 40px;
+    width: 300px;
+    border-radius: 6px;
+    padding: 0px 8px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+.date button{
+    height: 40px;
+    border-radius: 7px;
+    padding: 5px;
+    outline: 0;
+    border: 0;
+    font-weight: 530;
+    width: 100px;
+    background-color: #ffff76;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.Calculatedate{
+    margin: 30px;
+    color: white;
+    font-size: 1.8rem;
+}
